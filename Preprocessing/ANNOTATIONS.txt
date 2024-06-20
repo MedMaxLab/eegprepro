@@ -1,0 +1,32 @@
+for the EEGMMI:
+
+1 - the sampling rate wasn't changed from 160 Hz. We prefer to not perform 
+    oversampling (other datasets had a higher sampling rate, which was aligned 
+    to 250 Hz, although a downsampling of 125 was performed in the end.)
+2 - some records include a final sequence of zeros across all channels. We decided
+    to discard them keeping into account that the final trial must have a length of 
+    4.1 seconds, which is equivalent to 656 samples.
+3 - Subjects 88, 92, 100 have a sampling rate of 128 and longer trial length. 
+    We decided to discard them as done in other works. Also, this is consistent 
+    with point 1.
+4 - whenever possible, if the trial was few samples shorter, a piece of the next part 
+    of the EEG signal (rest portion between trials) was included to make the trial
+    long at least 656 samples.
+5 - Subject 89 has inconsistent trial length, as described in another paper. 
+    Considering point 4, we still decided to keep it.
+6 - Subjects 102, 34, 37, 41, 64, 72, 73, 74, 76 have the final performed task 
+    shorter than 4.1 seconds (656 samples). Point 2 was not applicable for such 
+    tasks. So, we simply excluded them. The number of samples excluded was 17, which
+    is a really small number considering the overall number of samples (thousands).
+
+
+For the Parkinson task:
+
+1 - we took only POFF session from Parkinson's subjects to avoid any bias introduced
+    by the pharmacologic therapy
+
+
+For the Sleep task:
+
+1 - we took only the eyes open session since not all subjects have a eyes closed one.
+
