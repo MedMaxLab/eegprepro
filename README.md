@@ -56,7 +56,7 @@ Each model was evaluated with different metrics and results
 were used to run a statistical analysis to assess differences
 between the investigated pipelines
 
-<img src="Images/NestedKfold4.pdf"
+<img src="Images/NestedKfold4.png"
         alt="Picture"
         width="600"
         style="display: block; margin: 0 auto" />
@@ -72,13 +72,13 @@ median value as centrality measure.
 Results were presented with dedicated figures. 
 An example is provided below
 
-<img src="Images/shn.pdf"
+<img src="Images/shn.png"
         alt="Picture"
         width="500"
         style="display: block; margin: 0 auto" />
-<img src="Images/shn_CD.pdf"
+<img src="Images/shn_CD.png"
         alt="Picture"
-        width="600"
+        width="575"
         style="display: block; margin: 0 auto" />
 
 
