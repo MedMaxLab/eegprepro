@@ -1,7 +1,7 @@
 # How to replicate the experiment
 
 Prepare all the data and run such a high number of training is very time demanding.
-However, we believe that replicability and transparency are very important aspect
+However, we believe that replicability and transparency are very important aspects
 of deep learning research.
 Therefore, this folder includes some markdown files that will explain in detail
 all the steps necessary to reproduce the results presented in our paper.
