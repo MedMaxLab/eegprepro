@@ -76,9 +76,10 @@ An example is provided below
         alt="Picture"
         width="500"
         style="display: block; margin: 0 auto" />
+        
 <img src="Images/dcn_CD.png"
         alt="Picture"
-        width="575"
+        width="500"
         style="display: block; margin: 0 auto" />
 
 
