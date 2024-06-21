@@ -23,7 +23,7 @@ Markdown files in the docs folder provide additional information
 on the provided code.
 Here, we report a brief description of the key points.
 
-### models and tasks
+### Models and Tasks
 
 We used six different tasks, covering a wide range of possible
 clinical and non-clinical use cases,
@@ -46,7 +46,7 @@ Models:
 * **ShallowNet**
 * **FBCNet**
 
-### model evaluation
+### Model Evaluation
 
 Data were splitted using a proposed variant of the
 Leave-N-Sujects-Out Cross Validation, called 
@@ -61,7 +61,7 @@ between the investigated pipelines
         width="600"
         style="display: block; margin: 0 auto" />
 
-### statistical analysis
+### Statistical Analysis
 
 We searched for differences in the pipelines both at the local
 (single model single task) and the model level (single model
