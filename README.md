@@ -66,17 +66,17 @@ between the investigated pipelines
 We searched for differences in the pipelines both at the local
 (single model single task) and the model level (single model
 all tasks).
-Specific stattistical tests were used for each level, 
+Specific statistical tests were used for each level, 
 using the balanced accuracy as the evaluation metric and the
 median value as centrality measure.
 Results were presented with dedicated figures. 
 An example is provided below
 
-<img src="Images/shn.png"
+<img src="Images/dcn.png"
         alt="Picture"
         width="500"
         style="display: block; margin: 0 auto" />
-<img src="Images/shn_CD.png"
+<img src="Images/dcn_CD.png"
         alt="Picture"
         width="575"
         style="display: block; margin: 0 auto" />
