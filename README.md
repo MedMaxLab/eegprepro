@@ -56,10 +56,9 @@ Each model was evaluated with different metrics and results
 were used to run a statistical analysis to assess differences
 between the investigated pipelines
 
-<img src="Images/NestedKfold4.png"
-        alt="Picture"
-        width="600"
-        style="display: block; margin: 0 auto" />
+<div align="center">
+  <img src="Images/NestedKfold4.png" width="600">
+</div>
 
 ### Statistical Analysis
 
@@ -72,22 +71,21 @@ median value as centrality measure.
 Results were presented with dedicated figures. 
 An example is provided below
 
-<img src="Images/dcn.png"
-        alt="Picture"
-        width="500"
-        style="display: block; margin: 0 auto" />
-        
-<img src="Images/dcn_CD.png"
-        alt="Picture"
-        width="500"
-        style="display: block; margin: 0 auto" />
+<div align="center">
+  <img src="Images/dcn.png" width="600">
+</div>
+
+<div align="center">
+  <img src="Images/dcn_CD.png" width="600">
+</div>
 
 
 ## Provided code
 
 All the code used to produce the results presented in the paper
-are in this repository. Additional instruction to how replicate
-our experimental pipeline is provided in the ``docs`` folder.
+are in this repository. Additional instruction on how to replicate
+our experimental pipeline is provided in the
+[docs](https://github.com/MedMaxLab/eegprepro/tree/main/docs) folder.
 
 ## Authors and Citation
 
