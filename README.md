@@ -8,13 +8,12 @@ This is the official repository for the research paper
 Submitted to IEEE Transactions on Neural Systems and Rehabilitation Engineering.
 
 In this work, we have investigated the effect of EEG
-data preprocessing on the performances of deep learning models.
-In particular, we have evaluated if raw data can be
-effectively given to DL models without losing predictive
-power or not.
+data preprocessing on the performance of deep learning models.
+In particular, we have evaluated whether or not raw data can be
+effectively fed to DL models without losing predictive power.
 Furthermore, we have compared pipelines with different
 levels of complexity, from a minimal filtering to a richer
-one with established artifact handling automated algorithms.
+one with established automated artifact handling algorithms.
 
 ## How was the comparison designed
 
@@ -48,13 +47,13 @@ Models:
 
 ### Model Evaluation
 
-Data were splitted using a proposed variant of the
-Leave-N-Sujects-Out Cross Validation, called 
-Nested-Leave-N-Subjects-Out Cross Validation, schematized in
+Data were partitioned using a proposed variant of the
+Leave-N-Subjects-Out Cross Validation, called 
+Nested Leave-N-Subjects-Out Cross Validation, schematized in
 the figure below.
-Each model was evaluated with different metrics and results
-were used to run a statistical analysis to assess differences
-between the investigated pipelines
+Each model was evaluated using different metrics, and the results
+were used to perform statistical analysis to assess differences
+between the investigated pipelines.
 
 <div align="center">
   <img src="Images/NestedKfold4.png" width="600">
@@ -62,14 +61,14 @@ between the investigated pipelines
 
 ### Statistical Analysis
 
-We searched for differences in the pipelines both at the local
+We looked for differences in the pipelines at both the local level
 (single model single task) and the model level (single model
 all tasks).
 Specific statistical tests were used for each level, 
 using the balanced accuracy as the evaluation metric and the
-median value as centrality measure.
+median value as the centrality measure.
 Results were presented with dedicated figures. 
-An example is provided below
+An example is shown below
 
 <div align="center">
   <img src="Images/dcn.png" width="600">
@@ -82,17 +81,26 @@ An example is provided below
 
 ## Provided code
 
-All the code used to produce the results presented in the paper
-are in this repository. Additional instruction on how to replicate
-our experimental pipeline is provided in the
+Scripts used to generate the results presented in the paper
+are available in this repository.
+Additional instructions on how to replicate
+our experimental pipeline are provided in the
 [docs](https://github.com/MedMaxLab/eegprepro/tree/main/docs) folder.
+
+## Results
+
+Performance metrics of each trained model are collected and organized in
+the **ResultsTable.csv** file. In addition, each **TaskClassification** folder
+(e.g., AlzClassification, EoecClassification) has a zpack mode 5 file that
+compresses a set of pickle files containing model predictions, ground truths,
+and performance metrics. 
 
 ## Authors and Citation
 
 If you find codes and results useful for your research,
 please concider citing our work. It would help us to continue our research.
-We are working on a research paper to submit to
-IEEE Transactions on Neural Systems and Rehabilitation Engineering.  
+At the moment, we are working on a research paper to submit to
+IEEE Transactions on Neural Systems and Rehabilitation Engineering.
 
 
 Contributors:
