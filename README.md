@@ -107,6 +107,8 @@ Contributors:
 
 - Eng. Federico Del Pup
 - M.Sc. Andrea Zanola
+- M.Sc. Louis Fabrice Tshimanga
+- Prof. Alessandra Bertoldo
 - Prof. Manfredo Atzori
 
 ## License
