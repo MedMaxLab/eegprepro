@@ -5,6 +5,8 @@
 docs/build/
 docs/site/
 
+*/Models/
+
 # Ignore results and models stored as pickle and pt files.
 *.pickle
 *.pt
