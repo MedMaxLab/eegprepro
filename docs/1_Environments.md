@@ -68,6 +68,9 @@ The environment used by our team specifically has:
 * jupyterlab = 4.0.3 (pyhd8ed1ab_0)
 * selfeeg = from git
 
+The full environment was also exported and uploaded in this
+directory. Note that there are many useless package due to
+the development of other projects.
 
 ## Python Environment for figure generation
 
