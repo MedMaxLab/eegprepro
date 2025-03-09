@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: If you use this software, please cite both the article from preferred-citation and the software itself.
+authors:
+- family-names: Del Pup
+  given-names: Federico
+  orcid: "https://orcid.org/0009-0004-0698-962X"
+- family-names: Zanola
+  given-names: Andrea
+  orcid: "https://orcid.org/0000-0001-6973-8634"
+- family-names: Tshimanga
+  given-names: Louis Fabrice
+  orcid: "https://orcid.org/0009-0002-1240-4830"
+- family-names: Bertoldo
+  given-names: Alessandra
+  orcid: "https://orcid.org/0000-0002-6262-6354"
+- family-names: Atzori
+  given-names: Manfredo
+  orcid: "https://orcid.org/0000-0001-5397-2063"
+title: The More, the Better? Evaluating the Role of EEG Preprocessing for Deep Learning Applications
+version: 1.0.0
+doi: 10.1109/TNSRE.2025.3547616
+date-released: '2025-03-09'
+preferred-citation:
+  authors:
+  - family-names: Del Pup
+    given-names: Federico
+    orcid: "https://orcid.org/0009-0004-0698-962X"
+  - family-names: Zanola
+    given-names: Andrea
+    orcid: "https://orcid.org/0000-0001-6973-8634"
+  - family-names: Tshimanga
+    given-names: Louis Fabrice
+    orcid: "https://orcid.org/0009-0002-1240-4830"
+  - family-names: Bertoldo
+    given-names: Alessandra
+    orcid: "https://orcid.org/0000-0002-6262-6354"
+  - family-names: Atzori
+    given-names: Manfredo
+    orcid: "https://orcid.org/0000-0001-5397-2063"
+  issn: 1534-4320
+  issue: 33
+  journal: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+  title: The More, the Better? Evaluating the Role of EEG Preprocessing for Deep Learning Applications
+  doi: 10.1109/TNSRE.2025.3547616
+  type: article-journal
+  pages: 1061-1070
+  year: '2025'
+  conference: {}
+  publisher: {}
