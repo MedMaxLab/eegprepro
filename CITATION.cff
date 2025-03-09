@@ -21,6 +21,7 @@ version: 1.0.0
 doi: 10.1109/TNSRE.2025.3547616
 date-released: '2025-03-09'
 preferred-citation:
+  type: article
   authors:
   - family-names: Del Pup
     given-names: Federico
@@ -37,13 +38,12 @@ preferred-citation:
   - family-names: Atzori
     given-names: Manfredo
     orcid: "https://orcid.org/0000-0001-5397-2063"
-  issn: 1534-4320
-  issue: 33
-  journal: IEEE Transactions on Neural Systems and Rehabilitation Engineering
-  title: The More, the Better? Evaluating the Role of EEG Preprocessing for Deep Learning Applications
   doi: 10.1109/TNSRE.2025.3547616
-  type: article
-  pages: 1061-1070
-  year: '2025'
-  conference: {}
-  publisher: {}
+  journal: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+  issn: 1534-4320
+  month: 3
+  start: 1061
+  end: 1070
+  title: The More, the Better? Evaluating the Role of EEG Preprocessing for Deep Learning Applications
+  volume: 33
+  year: 2025
