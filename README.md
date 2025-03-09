@@ -5,7 +5,9 @@ This is the official repository for the research paper
     The more, the better? Evaluating the role of
     EEG preprocessing for deep learning applications.
 
-Submitted to IEEE Transactions on Neural Systems and Rehabilitation Engineering.
+Published in IEEE Transactions on Neural Systems and Rehabilitation Engineering.
+
+[![DOI:10.1109/TNSRE.2025.3547616](https://img.shields.io/badge/DOI-10.1109/TNSRE.2025.3547616-blue)](https://doi.org/10.1109/TNSRE.2025.3547616)
 
 In this work, we have investigated the effect of EEG
 data preprocessing on the performance of deep learning models.
@@ -97,11 +99,25 @@ and performance metrics.
 
 ## Authors and Citation
 
-If you find codes and results useful for your research,
+If you find this repository useful for your research,
 please concider citing our work. It would help us to continue our research.
-At the moment, we are working on a research paper to submit to
-IEEE Transactions on Neural Systems and Rehabilitation Engineering.
 
+```bibtex
+@article{eegprepro,
+  author = {Del Pup, Federico and
+            Zanola, Andrea and
+            Fabrice Tshimanga, Louis and
+            Bertoldo, Alessandra and
+            Atzori, Manfredo},
+  journal = {IEEE Transactions on Neural Systems and Rehabilitation Engineering}, 
+  title = {The More, the Better? Evaluating the Role of EEG Preprocessing for Deep Learning Applications}, 
+  year = {2025},
+  volume = {33},
+  number = {},
+  pages = {1061-1070},
+  doi = {10.1109/TNSRE.2025.3547616}
+}
+```
 
 Contributors:
 
