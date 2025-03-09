@@ -42,7 +42,7 @@ preferred-citation:
   journal: IEEE Transactions on Neural Systems and Rehabilitation Engineering
   title: The More, the Better? Evaluating the Role of EEG Preprocessing for Deep Learning Applications
   doi: 10.1109/TNSRE.2025.3547616
-  type: article-journal
+  type: article
   pages: 1061-1070
   year: '2025'
   conference: {}
